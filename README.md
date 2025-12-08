@@ -103,27 +103,6 @@ ruff format --check src tests
 ruff format src tests
 ```
 
-## Project Structure
-
-```
-.
-├── src/
-│   ├── __init__.py
-│   ├── bot.py             # Telegram bot integration
-│   ├── config.py          # Configuration and environment variables
-│   ├── date_utils.py      # Date parsing and formatting utilities
-│   ├── domain.py          # Data models
-│   ├── format.py          # Telegram message formatting
-│   ├── logger.py          # Logging configuration
-│   ├── main.py            # Main entry point
-│   └── scrape.py          # Web scraping logic
-├── tests/
-│   ├── test_date.py       # Date utilities tests
-│   └── test_format.py     # Formatting tests
-├── pyproject.toml         # Project dependencies and configuration
-└── README.md
-```
-
 ## CI/CD
 
 The project uses GitHub Actions for continuous integration:
